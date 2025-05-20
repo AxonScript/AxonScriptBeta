@@ -1,3 +1,8 @@
+<script>
+  import Router from 'svelte-spa-router'; // The Router component itself
+  import routes from './routes.js'; // Your defined routes
+</script>
+
 <main>
-  <h1>Hello AxonScript!</h1>
+  <Router {routes} />
 </main>
