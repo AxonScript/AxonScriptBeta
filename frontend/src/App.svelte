@@ -6,3 +6,10 @@
 <main>
   <Router {routes} />
 </main>
+
+<style>
+  :global(*){
+    margin: 0px;
+    padding: 0px;
+  }
+</style>
