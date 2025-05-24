@@ -6,7 +6,8 @@
         display: flex;
         justify-content: space-between;
         padding: 1rem;
-        background-color:aliceblue;        
+        /* background-color:aliceblue;         */
+        background: #000;
     }
 
 
@@ -27,23 +28,34 @@
         text-decoration: none;
 
         /* font */
-        font-family: "Roboto", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 350;
+        font-family: "Varela Round", sans-serif;
+        font-weight: 1000;
         font-style: normal;
-        font-variation-settings:"wdth" 100;
     }
    
    .nav-links > a:hover{
-        color: aliceblue;
+        /* color: aliceblue; */
+        color: #000;
         background-color: #027bd1;
+        font-weight: 900;
+
+   }
+
+
+
+   /* light theme  */
+   .light-theme {
+        background: aliceblue;
+   }
+   .light-theme > .nav-links > a:hover{
+        color: aliceblue;
 
    }
 </style>
 
 
 
-<div class="card">
+<div class="card ">
     <a href="/">
         <img class="nav-img" src="/axonscript-favicon.png" alt="AxonScript Logo">
     </a>
@@ -54,4 +66,4 @@
     <a href="/community">Community</a>
     <a href="https://github.com/AxonScript">GitHub</a>
 </ul>
-</div>"
+</div>
