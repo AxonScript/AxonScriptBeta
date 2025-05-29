@@ -7,7 +7,7 @@
     .card{
         display: flex;
         justify-content: space-between;
-        padding: 1rem;
+        padding: 0.1rem;
         background: var(--nav-bg);
         border-bottom: 0.01rem solid var(--nav-border-bottom-color);
         
