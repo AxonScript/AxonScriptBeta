@@ -9,6 +9,7 @@
         justify-content: space-between;
         padding: 1rem;
         background: var(--nav-bg);
+        border-bottom: 0.01rem solid var(--nav-border-bottom-color);
         
         
         .nav-logo{
@@ -21,9 +22,10 @@
 
             
             a{
-                font-size: 1rem;
+                font-size: 1.1rem;
                 margin-right: 2rem;
                 padding: 0.5rem;
+
             
                 border-radius: 4px;
                 color: #027bd1;

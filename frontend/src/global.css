@@ -1,8 +1,10 @@
 :root {
   --nav-bg: black;
   --nav-links-color-on-hover: black;
+  --nav-border-bottom-color: white;
 }
-[nav-theme="light"] {
-  --nav-bg: aliceblue;
-  --nav-links-color-on-hover: aliceblue;
+[theme="light"] {
+  --nav-bg: white;
+  --nav-links-color-on-hover: white;
+  --nav-border-bottom-color: aliceblue;
 }

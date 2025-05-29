@@ -3,7 +3,7 @@
   import routes from './routes.js'; // Your defined routes
 </script>
 
-<main nav-theme="light" >
+<main theme="light" >
   <Router {routes} />
 </main>
 
