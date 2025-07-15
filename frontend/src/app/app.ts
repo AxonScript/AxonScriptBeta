@@ -1,13 +1,10 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  template: ` <h1>Hello AxonScript!</h1> `,
-  styles: `
-    h1{
-      text-align: center;
-      font-size: 4rem;
-    }
-  `,
+  standalone: true,
+  imports: [RouterOutlet],
+  template: ` <router-outlet></router-outlet>`,
 })
 export class App {}
