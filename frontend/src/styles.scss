@@ -19,7 +19,12 @@ body {
 
 body[theme="dark"] {
   --home-bg: var(--neon-black);
+  --nav-link-color: var(--neon-blue);
+  --nav-bg: var(--neon-black);
 }
 
 body[theme="light"] {
+  --home-bg: white;
+  --nav-link-color: var(--neon-blue);
+  --nav-bg: white;
 }
