@@ -1,13 +1,19 @@
 import { Component } from '@angular/core';
+import { NavBar } from '../components/nav-bar/nav-bar';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  template: ` <h1>Hello AxonScript!</h1> `,
+  imports: [NavBar],
+  template: ` <div class="container">
+    <app-nav-bar />
+  </div>`,
   styles: `
-    h1{
-      text-align: center;
-      font-size: 4rem;
+    .container{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color:var(--home-bg);
     }
   `,
 })
