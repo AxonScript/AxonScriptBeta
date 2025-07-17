@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Chettan+2:wght@400..800&family=El+Messiri:wght@400..700&family=Huninn&family=Itim&family=Julee&family=Merienda:wght@300..900&family=Michroma&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100vw;
+  height: 100vh;
+
+  --neon-blue: #1e90ff;
+  --neon-black: #0d0d0d;
+  --neon-green: #00ff85;
+  --soft-gray: #cccccc;
+}
+
+body[theme="dark"] {
+  --home-bg: var(--neon-black);
+  --nav-link-color: var(--neon-blue);
+  --nav-bg: var(--neon-black);
+  --hero-bg: black;
+  --hero-phrase: var(--soft-gray);
+  --hero-btn-color: var(--neon-green);
+  --hero-btn-bg: var(--neon-black);
+}
+
+body[theme="light"] {
+  --home-bg: white;
+  --nav-link-color: var(--neon-blue);
+  --nav-bg: white;
+  --hero-bg: white;
+  --hero-phrase: var(--soft-gray);
+  --hero-btn-color: var(--neon-green);
+  --hero-btn-bg: white;
+}

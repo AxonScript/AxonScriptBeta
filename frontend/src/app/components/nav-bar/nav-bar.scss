@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: var(--nav-bg);
+
+  .nav-logo {
+    padding-left: 0.5rem;
+    height: 4rem;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    gap: 2rem;
+
+    .nav-link {
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 0.2rem 0.4rem;
+      color: var(--nav-link-color);
+
+      // font
+      font-size: 2rem;
+      font-family: "Baloo Chettan 2", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+    }
+    .nav-link:hover {
+      background: var(--nav-link-color);
+      color: var(--nav-bg);
+    }
+
+    #theme-toggle-btn {
+      background-color: transparent;
+      border: none;
+    }
+  }
+}

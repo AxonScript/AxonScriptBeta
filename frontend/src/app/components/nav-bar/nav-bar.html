@@ -1,0 +1,21 @@
+<div class="container">
+  <a routerLink="">
+    <img
+      src="./logo.png"
+      alt="axon script logo"
+      class="nav-logo"
+      height="50px"
+    />
+  </a>
+
+  <div class="nav-links">
+    <a class="nav-link" routerLink="/about">About</a>
+    <a class="nav-link" routerLink="/install">Install</a>
+    <a class="nav-link" routerLink="/docs">Docs</a>
+    <a class="nav-link" routerLink="/community">Community</a>
+    <a class="nav-link" routerLink="">GitHub</a>
+    <button id="theme-toggle-btn" (click)="theme_toggle()">
+      <img src="/light-theme-icon.png" height="25rem" />
+    </button>
+  </div>
+</div>
